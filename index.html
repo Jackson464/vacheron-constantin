@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바쉐론 콘스탄틴 | 남성용 & 여성용 스위스 럭셔리 시계</title>
+
+    <!-- jQuery.js -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+    <!-- gsap lib -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- gsap scroll top plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js" integrity="sha512-tQFq+nb/TSS648SDzWbSj0A67t4I1PFzR0U6Oi/yEYFyUbAIwg74SOCbr7t2X1Rn+iln7sYwfh8y+z7p0gddOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- swiper slide -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- animate-css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- header -->
+        <header class="header">
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="images/Logo/logo-duble-w.png" alt="바쉐론 콘스탄틴의 로고">
+                    </a>
+                </h1>
+                <div class="gnb">
+                    <nav class="depth1">
+                        <ul class="mainmenu tab-nav1">
+                            <li>
+                                <a href="#" class="btn main-btn1">Watch</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn main-btn2">Maison</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn main-btn3">Service</a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn main-btn4">Boutique</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="depth2">
+                        <ul class="submenu tab-panel1 tab-nav2">
+                            <li><a href="#">Collections</a></li>
+                            <li><a href="#">모든 시계</a></li>
+                            <li><a href="#">남성용</a></li>
+                            <li><a href="#">여성용</a></li>
+                            <li><a href="#">스트랩</a></li>
+                        </ul>
+                        <ul class="submenu tab-panel2 tab-nav3">
+                            <li><a href="#">장인 정신</a></li>
+                            <li><a href="#">헤리티지</a></li>
+                            <li><a href="#">One of Not Many</a></li>
+                            <li><a href="#">애비 로드 스튜디오</a></li>
+                            <li><a href="#">루브르 박물관</a></li>
+                            <li><a href="#">지속 가능성</a></li>
+                        </ul>
+                        <ul class="submenu tab-panel3 tab-nav4">
+                            <li><a href="#">전체 서비스</a></li>
+                            <li><a href="#">와인딩</a></li>
+                            <li><a href="#">시계 유지보수 서비스</a></li>
+                            <li><a href="#">스트랩 관리</a></li>
+                            <li><a href="#">보증</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">온라인 부티크 서비스</a></li>
+                        </ul>
+                        <ul class="submenu tab-panel4">
+                            <a href="https://stores.vacheron-constantin.com/ko/index.html" target="_blank">
+                                <img src="images/Boutique/boutique.png" alt="매장 사진">
+                            </a>
+                            <button class="go-site-btn">
+                                <a href="https://stores.vacheron-constantin.com/ko/index.html" target="_blank">문의하기</a>
+                            </button>
+                        </ul>
+                    </div>
+                    <div class="depth3">
+                        <div class="watch d3-tabs">
+                            <ul class="submenu d3-tab-panel1">
+                                <li><a href="#">All Collection</a></li>
+                                <li><a href="#">Egerie</a></li>
+                                <li><a href="#">Fiftysix</a></li>
+                                <li><a href="#">Heures Creatives</a></li>
+                                <li><a href="#">Historiques</a></li>
+                                <li><a href="#">Malte</a></li>
+                                <li><a href="#">Metier d' Art</a></li>
+                                <li><a href="#">Overseas</a></li>
+                                <li><a href="#">Patrimony</a></li>
+                                <li><a href="#">Traditionnelle</a></li>
+                            </ul>
+                            <ul class="submenu d3-tab-panel2 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/watches/all-watches.html" target="_blank">
+                                    <img src="images/header/all-watch/all-watch-001.png" alt="모든 시계 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/watches/all-watches.html" target="_blank">Collection</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel3 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/watches/for-men.html" target="_blank">
+                                    <img src="images/header/man-watch/man-watch-001.png" alt="남성용 시계 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/watches/for-men.html" target="_blank">Man's</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel4 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/watches/for-women.html" target="_blank">
+                                    <img src="images/header/woman-watch/woman-watch-001.png" alt="여성용 시계 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/watches/for-women.html" target="_blank">Woman's</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel5">
+                                <li><a href="#">스트랩</a></li>
+                                <li><a href="#">가죽 스트랩</a></li>
+                                <li><a href="#">러버 스트랩</a></li>
+                                <li><a href="#">메탈 스트랩</a></li>
+                            </ul>
+                        </div>
+                        <div class="maison d3-tabs">
+                            <ul class="submenu d3-tab-panel1">
+                                <li><a href="#">캐비노티에</a></li>
+                                <li><a href="#">메티에 다르</a></li>
+                                <li><a href="#">복원 기술</a></li>
+                                <li><a href="#">아메리칸 1921</a></li>
+                                <li><a href="#">트윈 비트</a></li>
+                                <li><a href="#">호모 파비에르 전시회 - 베니스 | 바쉐론 콘스탄틴</a></li>
+                            </ul>
+                            <ul class="submenu d3-tab-panel2">
+                                <li><a href="#">더 아워 라운지(The Hour Lounge)</a></li>
+                                <li><a href="#">Les Collectionneurs</a></li>
+                                <li><a href="#">아이코닉 워치</a></li>
+                                <li><a href="#">메종의 설립자</a></li>
+                                <li><a href="#">역사적 타임라인</a></li>
+                            </ul>
+                            <ul class="submenu d3-tab-panel3 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/maison/one-of-not-many.html" target="_blank">
+                                    <img src="images/header/onm-maison/onm-001.png" alt="One of not many 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/maison/one-of-not-many.htm" target="_blank">Woman's</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel4 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/maison/abbey-road-studios.html" target="_blank">
+                                    <img src="images/header/studio-maison/studio-001.png" alt="애비 로드 스튜디오 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/maison/abbey-road-studios.html" target="_blank">Woman's</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel5 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/maison/le-louvre.html" target="_blank">
+                                    <img src="images/header/louv-maison/louv-001.png" alt="루브르 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/maison/le-louvre.html" target="_blank">Woman's</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel6 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/maison/corporate-social-responsibility.html" target="_blank">
+                                    <img src="images/header/pos-maison/pos-001.png" alt="지속 가능성 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/maison/corporate-social-responsibility.html" target="_blank">Woman's</a>
+                                </button>
+                            </ul>
+                        </div>
+                        <div class="service d3-tabs">
+                            <ul class="submenu d3-tab-panel1 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/services/all-services.html" target="_blank">
+                                    <img src="images/service/all-service-001.png" alt="전체 서비스 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/services/all-services.html" target="_blank">전체 서비스</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel2 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/services/winding.html" target="_blank">
+                                    <img src="images/service/winding-001.png" alt="셀프 와인팅 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/services/winding.html" target="_blank">Self winding</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel3 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/services/preserve-your-watch.html" target="_blank">
+                                    <img src="images/service/service-center-001.png" alt="시계 유지보수 서비스 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/services/preserve-your-watch.html" target="_blank">시계 유지보수 서비스</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel4 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/services/strap-care.html" target="_blank">
+                                    <img src="images/service/strap-001.png" alt="스트랩 관리 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/services/strap-care.html" target="_blank">스트랩 관리</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel5 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/services/warranty.html" target="_blank">
+                                    <img src="images/service/warranty-001.png" alt="보증서 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/services/warranty.html" target="_blank">품질 보증 정책</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel6 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/services/service-frequently-asked-questions.html" target="_blank">
+                                    <img src="images/service/faq-001.png" alt="FAQ 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/services/service-frequently-asked-questions.html" target="_blank">FAQ</a>
+                                </button>
+                            </ul>
+                            <ul class="submenu d3-tab-panel7 d3-tab-img">
+                                <a href="https://www.vacheron-constantin.com/kr/ko/services/e-boutique-services.html" target="_blank">
+                                    <img src="images/service/service-001.png" alt="고객 서비스 썸네일 이미지">
+                                </a>
+                                <button class="go-site-btn">
+                                    <a href="https://www.vacheron-constantin.com/kr/ko/services/e-boutique-services.html" target="_blank">고객 서비스</a>
+                                </button>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </header>
+        <!-- main -->
+        <main class="main">
+            <!-- 1st section -->
+            <section class="visual-main">
+                <div class="inner">
+                    <div class="visual-banner">
+                        <div class="swiper main-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide slide1">
+                                    <div class="vs1-inner vs-inner">
+                                        <div class="watch-img animate__animated animate__fadeInUp">
+                                            <img src="images/product/reto-gold/retro-gold-001.png" alt="투르비용 레트로 그레이드 데이트 오픈페이스 실물 사진">
+                                        </div>
+                                        <div class="right-top-txt animate__animated animate__fadeInRight">
+                                            <p>LESS'ENTIAL</p>
+                                            <p>LES CABINOTIERS</p>
+                                        </div>
+                                        <div class="right-center-btns">
+                                            <button class="top-btn btn animate__animated animate__fadeInRight">
+                                                <a href="#" target="_blank">매장 찾기</a>
+                                            </button>
+                                            <button class="center-btn btn animate__animated animate__fadeInRight">
+                                                <a href="#" target="_blank">전화 주문</a>
+                                            </button>
+                                            <button class="bottom-btn btn animate__animated animate__fadeInRight">
+                                                <a href="#" target="_blank">관심 제품 등록</a>
+                                            </button>
+                                        </div>
+                                        <div class="banner-logo animate__animated animate__fadeInDown">
+                                            <img src="images/Logo/banner-logo-001.png" alt="바쉐론 콘스탄틴의 십자가 로고 이미지">
+                                        </div>
+                                        <div class="left-top-txt animate__animated animate__fadeInLeft">
+                                            <p>TRADITIONNELLE</p>
+                                            <p>투르비용 레트로그레이드</p>
+                                            <P>데이트 오픈페이스</P>
+                                        </div>
+                                        <div class="left-center-txt animate__animated animate__fadeInLeft">
+                                            <div class="left-left txt">
+                                                <p>Size</p>
+                                                <p>41 mm</p>
+                                            </div>
+                                            <div class="left-center txt">
+                                                <p>Thickness</p>
+                                                <p>11.07 mm</p>
+                                            </div>
+                                            <div class="left-right txt">
+                                                <p>Movement</p>
+                                                <p>Automatic winding</p>
+                                            </div>
+                                        </div>
+                                        <div class="left-bottom-img animate__animated animate__fadeInLeft">
+                                            <img src="images/product/reto-gold/retro-gold-004.png" alt="투르비용 레트로 그레이드 데이트 오픈페이스 착용 사진">
+                                        </div>
+                                    </div>
+                                    <div class="bgc"></div>
+                                    <div class="vs-bg"></div>
+                                </div>
+                                <div class="swiper-slide slide2">
+                                    <div class="vs2-inner vs-inner">
+                                        <div class="watch-img animate__animated animate__fadeInUp">
+                                            <img src="images/product/darkgreen/dg01.png" alt="투르비용 실물 사진">
+                                        </div>
+                                        <div class="right-top-txt animate__animated animate__fadeInRight">
+                                            <p>LESS'ENTIAL</p>
+                                            <p>LES CABINOTIERS</p>
+                                        </div>
+                                        <div class="right-center-btns">
+                                            <button class="top-btn btn animate__animated animate__fadeInRight">
+                                                <a href="#" target="_blank">매장 찾기</a>
+                                            </button>
+                                            <button class="center-btn btn animate__animated animate__fadeInRight">
+                                                <a href="#" target="_blank">전화 주문</a>
+                                            </button>
+                                            <button class="bottom-btn btn animate__animated animate__fadeInRight">
+                                                <a href="#" target="_blank">관심 제품 등록</a>
+                                            </button>
+                                        </div>
+                                        <div class="banner-logo animate__animated animate__fadeInDown">
+                                            <img src="images/Logo/banner-logo-002.png" alt="바쉐론 콘스탄틴의 십자가 로고 이미지">
+                                        </div>
+                                        <div class="left-top-txt animate__animated animate__fadeInLeft">
+                                            <p>TRADITIONNELLE</p>
+                                            <p>투르비용</p>
+                                        </div>
+                                        <div class="left-center-txt animate__animated animate__fadeInLeft">
+                                            <div class="left-left txt">
+                                                <p>Size</p>
+                                                <p>41 mm</p>
+                                            </div>
+                                            <div class="left-center txt">
+                                                <p>Thickness</p>
+                                                <p>10.04 mm</p>
+                                            </div>
+                                            <div class="left-right txt">
+                                                <p>Movement</p>
+                                                <p>Automatic winding</p>
+                                            </div>
+                                        </div>
+                                        <div class="left-bottom-img animate__animated animate__fadeInLeft">
+                                            <img src="images/product/darkgreen/dg04.png" alt="투르비용 착용 사진">
+                                        </div>
+                                    </div>
+                                    <div class="vs-bg"></div>
+                                    <div class="bgc"></div>
+                                </div>
+                                <div class="swiper-slide slide3">
+                                    <div class="vs3-inner vs-inner">
+                                        <div class="watch-img animate__animated animate__fadeInUp">
+                                            <img src="images/product/day-date/dd01.png" alt="PATRIMONY 레트로 그레이드 데이 데이트 사진">
+                                        </div>
+                                        <div class="right-top-txt animate__animated animate__fadeInRight">
+                                            <p>LESS'ENTIAL</p>
+                                            <p>LES CABINOTIERS</p>
+                                        </div>
+                                        <div class="right-center-btns">
+                                            <button class="top-btn btn animate__animated animate__fadeInRight">
+                                                <a href="#" target="_blank">매장 찾기</a>
+                                            </button>
+                                            <button class="center-btn btn animate__animated animate__fadeInRight">
+                                                <a href="#" target="_blank">전화 주문</a>
+                                            </button>
+                                            <button class="bottom-btn btn animate__animated animate__fadeInRight">
+                                                <a href="#" target="_blank">관심 제품 등록</a>
+                                            </button>
+                                        </div>
+                                        <div class="banner-logo animate__animated animate__fadeInDown">
+                                            <img src="images/Logo/banner-logo-003.png" alt="바쉐론 콘스탄틴의 십자가 로고 이미지">
+                                        </div>
+                                        <div class="left-top-txt animate__animated animate__fadeInLeft">
+                                            <p>PATRIMONY</p>
+                                            <p>레트로 그레이드</p>
+                                            <P>데이 - 데이트</P>
+                                        </div>
+                                        <div class="left-center-txt animate__animated animate__fadeInLeft">
+                                            <div class="left-left txt">
+                                                <p>Size</p>
+                                                <p>42.5 mm</p>
+                                            </div>
+                                            <div class="left-center txt">
+                                                <p>Thickness</p>
+                                                <p>9.7 mm</p>
+                                            </div>
+                                            <div class="left-right txt">
+                                                <p>Movement</p>
+                                                <p>Automatic winding</p>
+                                            </div>
+                                        </div>
+                                        <div class="left-bottom-img animate__animated animate__fadeInLeft">
+                                            <img src="images/product/day-date/dd04.png" alt="PATRIMONY 레트로 그레이드 데이 데이트 착용 사진">
+                                        </div>
+                                    </div>
+                                    <div class="vs-bg"></div>
+                                    <div class="bgc"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-bottom">
+                                <img src="images/icons/banner-icon/bottom-arrow-w-001.png" alt="슬라이드를 다음으로 넘기는 화살표 모양 버튼">
+                            </div>
+                            <div class="swiper-button-top">
+                                <img src="images/icons/banner-icon/top-arrow-w-001.png" alt="슬라이드를 이전으로 넘기는 화살표 모양 버튼">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 2nd section -->
+            <section class="visual-video">
+                <div class="inner">
+                    <div class="video left-content">
+                        <video id="vacheron-video" src="video/vacheron.mp4" autoplay muted controls loop></video>
+                    </div>
+                    <div class="text right-content">
+                        <div class="text-inner">
+                            <div class="video-title">
+                                <h2>섬세함과 심플함의 미학을 기념하는</h2>
+                                <h2>바쉐론 콘스탄틴의 새로운 타임피스</h2>
+                            </div>
+                            <div class="video-content">
+                                <p>절제된 미학 속에서 아름다움을 발견하는</p>
+                                <p>'LESS`ENTIAL'은 타임피스의 핵심적인 요소, 심플한 외관</p>
+                                <p>기교의 우아한 통제에 집중합니다.</p>
+                                <p>2023년 Watches & Wonders에서 공개된 바쉐론 콘스탄틴의 최신모델은</p>
+                                <p>탁월함의 정수를 향해 경의를 표합니다.</p>
+                            </div>
+                            <button class="video-btns btn">
+                                <a href="#" target="_blank">메종의 신제품 자세히 보기</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 3rd section -->
+            <section class="visual-half">
+                <div class="inner">
+                    <div class="half-left">
+                        <div class="half-left-inner">
+                            <div class="left-txt">
+                                <div class="left-title">
+                                    <h2>RETROGRADE</h2>
+                                </div>
+                                <div class="left-center">
+                                    <h3>A COMPLEX MECHANISM</h3>
+                                </div>
+                                <div class="left-bottom">
+                                    <p>대부분의 시계는 시곗바늘이 360° 축을 도는 고전적인 방식으로 시간을 확인합니다.<br> 하지만 레트로그레이드 워치를 제작한 일부 워치메이커는 독창성을 자유롭게 발휘하여 또 다른 디스플레이 방식을 선보였습니다. 시침은 반나절 동안 호를 그리며 이동한 후 출발점으로 되돌아와 순식간에 코스를 다시 시작하게 됩니다.</p>
+                                </div>
+                                <button class="left-button btn">
+                                    <a href="#" target="_blank">자세히 보기</a>
+                                </button>
+                            </div>
+                            <div class="left-img">
+                                <div class="img img1"></div>
+                                <div class="img img2"></div>
+                            </div>
+                        </div>
+                        <div class="left-watch">
+                            <img src="images/half/watch/left/l-001.png" alt="바쉐론 콘스탄틴 레트로그레이드의 대표적인 시계 이미지">
+                        </div>
+                    </div>
+                    <div class="half-right">
+                        <div class="half-right-inner">
+                            <div class="right-txt">
+                                <div class="right-title">
+                                    <h2>OVERSEAS</h2>
+                                </div>
+                                <div class="right-center">
+                                    <h3>THE BIRTH OF A SPORTS WATCH</h3>
+                                </div>
+                                <div class="right-bottom">
+                                    <p>끊임없이 혁신을 추구하는 바쉐론 콘스탄틴은 19세기 말부터 스포츠 시계의 등장을 예견했습니다. 1977년 출시된 이 시계는 스포츠 워치의 미학적, 기술적 측면을 모두 만족시킬 뿐만 아니라, 120m의 방수를 자랑합니다.<br> 이후에도 스포티한 요소가 돋보이는 시계를 끊임없이 발전시켜 온 바쉐론 콘스탄틴은 2016년 Overseas 컬렉션을 새롭게 재해석하며 또 다시 정점을 이루었습니다.</p>
+                                </div>
+                                <button class="right-button btn">
+                                    <a href="#" target="_blank">자세히 보기</a>
+                                </button>
+                            </div>
+                            <div class="right-img">
+                                <div class="img img1"></div>
+                                <div class="img img2"></div>
+                            </div>
+                        </div>
+                        <div class="right-watch">
+                            <img src="images/half/watch/right/r-001.png" alt="바쉐론 콘스탄틴 오버시즈의 대표적인 시계 이미지">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 4th section -->
+            <section class="best-seller">
+                <div class="inner">
+                    <div class="bs-title title">
+                        <h2>Best Seller</h2>
+                    </div>
+                    <ul class="bs-left-content bs-tab-navs">
+                        <li class="patrimony bs-tab-nav on">
+                            <p>PATRIMONY</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                        <li class="egerie bs-tab-nav">
+                            <p>EGERIE</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                        <li class="traditionnelle bs-tab-nav">
+                            <p>TRADITAIONNELLE</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                        <li class="overseas bs-tab-nav">
+                            <p>OVERSEAS</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </li>
+                    </ul>
+                    <div class="bs-right-content">
+                        <div class="right-content-inner bs-tab-panels">
+                            <div class="bs-tab-panel swiper patrimony-slide default-slide">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="pat-slide-01 product-slide01">
+                                            <div class="pat-01 watches">
+                                                <div class="pat-01-bg watch-bg"></div>
+                                                <div class="pat-01-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Patrimony 레트로 그레이드 데이 - 데이트</p>
+                                                    <p class="spec">42.5MM 화이트 골드</p>
+                                                    <p class="price">￦66,000,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="pat-02 watches">
+                                                <div class="pat-02-bg watch-bg"></div>
+                                                <div class="pat-02-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Patrimony 퍼페추얼 캘린더 울트라 - 씬</p>
+                                                    <p class="spec">41MM 핑크 골드</p>
+                                                    <p class="price">￦124,000,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="pat-03 watches">
+                                                <div class="pat-03-bg watch-bg"></div>
+                                                <div class="pat-03-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Patrimony 퍼페추얼 캘린더 울트라 - 씬</p>
+                                                    <p class="spec">41MM 핑크 골드</p>
+                                                    <p class="price">￦124,000,000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="pat-slide-02 product-slide02">
+                                            <div class="pat-04 watches">
+                                                <div class="pat-04-bg watch-bg"></div>
+                                                <div class="pat-04-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Patrimony 매뉴얼 와인딩</p>
+                                                    <p class="spec">40MM 핑크 골드</p>
+                                                    <p class="price">￦29,500,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="pat-05 watches">
+                                                <div class="pat-05-bg watch-bg"></div>
+                                                <div class="pat-05-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Patrimony 문 페이즈 레트로 그레이드 데이 - 데이트</p>
+                                                    <p class="spec">42.5MM 화이트 골드</p>
+                                                    <p class="price">￦66,000,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="pat-06 watches">
+                                                <div class="pat-06-bg watch-bg"></div>
+                                                <div class="pat-06-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Patrimony 셀프 와인딩</p>
+                                                    <p class="spec">36.5MM 핑크 골드</p>
+                                                    <p class="price">￦52,000,000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pat-swiper-button-left swiper-button-left">
+                                    <img src="images/icons/banner-icon/bottom-arrow-w-001.png" alt="슬라이드를 다음으로 넘기는 화살표 모양 버튼">
+                                </div>
+                                <div class="pat-swiper-button-right swiper-button-right">
+                                    <img src="images/icons/banner-icon/top-arrow-w-001.png" alt="슬라이드를 이전으로 넘기는 화살표 모양 버튼">
+                                </div>
+                            </div>
+                            <div class="bs-tab-panel swiper egerie-slide">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="ege-slide-01 product-slide01">
+                                            <div class="ege-01 watches">
+                                                <div class="ege-01-bg watch-bg"></div>
+                                                <div class="ege-01-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Egerie 크리에이티브 에디션</p>
+                                                    <p class="spec">37MM 화이트 골드</p>
+                                                    <p class="price">￦158,000,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="ege-02 watches">
+                                                <div class="ege-02-bg watch-bg"></div>
+                                                <div class="ege-02-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Egerie 셀프 와인딩</p>
+                                                    <p class="spec">35MM 핑크 골드</p>
+                                                    <p class="price">￦46,100,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="ege-03 watches">
+                                                <div class="ege-03-bg watch-bg"></div>
+                                                <div class="ege-03-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Egerie 문 페이즈 Steel</p>
+                                                    <p class="spec">37MM 스틸</p>
+                                                    <p class="price">￦39,400,000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="ege-slide-01 product-slide02">
+                                            <div class="ege-04 watches">
+                                                <div class="ege-04-bg watch-bg"></div>
+                                                <div class="ege-04-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Egerie 셀프 와인딩 Gold</p>
+                                                    <p class="spec">35MM 핑크 골드</p>
+                                                    <p class="price">￦63,500,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="ege-05 watches">
+                                                <div class="ege-05-bg watch-bg"></div>
+                                                <div class="ege-05-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Egerie 문 페이즈 Gold</p>
+                                                    <p class="spec">37MM 핑크 골드</p>
+                                                    <p class="price">￦53,500,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="ege-06 watches">
+                                                <div class="ege-06-bg watch-bg"></div>
+                                                <div class="ege-06-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Egerie 문 페이즈 Gold</p>
+                                                    <p class="spec">37MM 핑크 골드</p>
+                                                    <p class="price">￦53,500,000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ege-swiper-button-left swiper-button-left">
+                                    <img src="images/icons/banner-icon/bottom-arrow-w-001.png" alt="슬라이드를 다음으로 넘기는 화살표 모양 버튼">
+                                </div>
+                                <div class="ege-swiper-button-right swiper-button-right">
+                                    <img src="images/icons/banner-icon/top-arrow-w-001.png" alt="슬라이드를 이전으로 넘기는 화살표 모양 버튼">
+                                </div>
+                            </div>
+                            <div class="bs-tab-panel swiper traditionnelle-slide">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="trad-slide-01 product-slide01">
+                                            <div class="trad-01 watches">
+                                                <div class="trad-01-bg watch-bg"></div>
+                                                <div class="trad-01-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Traditionnelle 투르비용 New</p>
+                                                    <p class="spec">41MM 플레티넘</p>
+                                                    <p class="price">가격문의</p>
+                                                </div>
+                                            </div>
+                                            <div class="trad-02 watches">
+                                                <div class="trad-02-bg watch-bg"></div>
+                                                <div class="trad-02-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Traditionnelle 투르비용 레트로 그레이드 <br> 데이트 오픈페이스</p>
+                                                    <p class="spec">41MM 핑크 골드</p>
+                                                    <p class="price">가격문의</p>
+                                                </div>
+                                            </div>
+                                            <div class="trad-03 watches">
+                                                <div class="trad-03-bg watch-bg"></div>
+                                                <div class="trad-03-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Traditionnelle 문 페이즈</p>
+                                                    <p class="spec">37.5MM 화이트 골드</p>
+                                                    <p class="price">￦117,000,000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="trad-slide-02 product-slide02">
+                                            <div class="trad-04 watches">
+                                                <div class="trad-04-bg watch-bg"></div>
+                                                <div class="trad-04-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Traditionnelle 투르비용 크로노그래프</p>
+                                                    <p class="spec">42.5MM 핑크 골드</p>
+                                                    <p class="price">가격문의</p>
+                                                </div>
+                                            </div>
+                                            <div class="trad-05 watches">
+                                                <div class="trad-05-bg watch-bg"></div>
+                                                <div class="trad-05-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Traditionnelle 퍼페추얼 캘린더 울트라 - 씬 Pink</p>
+                                                    <p class="spec">36.5MM 핑크 골드</p>
+                                                    <p class="price">￦129,000,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="trad-06 watches">
+                                                <div class="trad-06-bg watch-bg"></div>
+                                                <div class="trad-06-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Traditionnelle 퍼페추얼 캘린더 울트라 - 씬 Blue</p>
+                                                    <p class="spec">36.5MM 화이트 골드</p>
+                                                    <p class="price">￦129,000,000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trad-swiper-button-left swiper-button-left">
+                                    <img src="images/icons/banner-icon/bottom-arrow-w-001.png" alt="슬라이드를 다음으로 넘기는 화살표 모양 버튼">
+                                </div>
+                                <div class="trad-swiper-button-right swiper-button-right">
+                                    <img src="images/icons/banner-icon/top-arrow-w-001.png" alt="슬라이드를 이전으로 넘기는 화살표 모양 버튼">
+                                </div>
+                            </div>
+                            <div class="bs-tab-panel swiper overseas-slide">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="over-slide-01 product-slide01">
+                                            <div class="over-01 watches">
+                                                <div class="over-01-bg watch-bg"></div>
+                                                <div class="over-01-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Overseas 듀얼타임</p>
+                                                    <p class="spec">41MM 스틸</p>
+                                                    <p class="price">￦40,000,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="over-02 watches">
+                                                <div class="over-02-bg watch-bg"></div>
+                                                <div class="over-02-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Overseas 퍼페추얼 캘린더 울트라 - 씬</p>
+                                                    <p class="spec">41.5MM 핑크 골드</p>
+                                                    <p class="price">￦156,000,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="over-03 watches">
+                                                <div class="over-03-bg watch-bg"></div>
+                                                <div class="over-03-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Overseas 크로노그래프</p>
+                                                    <p class="spec">42.5MM 핑크 골드</p>
+                                                    <p class="price">￦77,500,000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="over-slide-02 product-slide02">
+                                            <div class="over-04 watches">
+                                                <div class="over-04-bg watch-bg"></div>
+                                                <div class="over-04-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Overseas 셀프 와인딩</p>
+                                                    <p class="spec">37MM 스틸</p>
+                                                    <p class="price">￦39,600,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="over-05 watches">
+                                                <div class="over-05-bg watch-bg"></div>
+                                                <div class="over-05-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Overseas 투르비용 스켈레톤</p>
+                                                    <p class="spec">42.5MM 핑크 골드</p>
+                                                    <p class="price">가격문의</p>
+                                                </div>
+                                            </div>
+                                            <div class="over-06 watches">
+                                                <div class="over-06-bg watch-bg"></div>
+                                                <div class="over-06-img watch-img"></div>
+                                                <div class="txt-wrap">
+                                                    <p class="name">Overseas 셀프 와인딩 Pink</p>
+                                                    <p class="spec">37MM 핑크 골드</p>
+                                                    <p class="price">￦59,000,000</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="over-swiper-button-left swiper-button-left">
+                                    <img src="images/icons/banner-icon/bottom-arrow-w-001.png" alt="슬라이드를 다음으로 넘기는 화살표 모양 버튼">
+                                </div>
+                                <div class="over-swiper-button-right swiper-button-right">
+                                    <img src="images/icons/banner-icon/top-arrow-w-001.png" alt="슬라이드를 이전으로 넘기는 화살표 모양 버튼">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 5th section -->
+            <section class="sns">
+                <div class="inner">
+                    <div class="left-sns-contents">
+                        <div class="left-text-wrap">
+                            <p>THE HOUR LOUNGE</p>
+                            <p>바쉐론 콘스탄틴의 <br> 빈티지와 함께하세요</p>
+                        </div>
+                        <button class="go-site-btn">
+                            <a href="https://www.instagram.com/vacheronconstantin/" target="_blank">바쉐론 콘스탄틴 팔로우 하기</a>
+                        </button>
+                        <div class="sns-swiper-box">
+                            <div class="swiper sns-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="sns01 sns-img">
+                                            <img src="images/sns/sns-slide/sns001.png" alt="sns 슬라이드 1번 이미지">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sns02 sns-img">
+                                            <img src="images/sns/sns-slide/sns002.png" alt="sns 슬라이드 2번 이미지">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sns03 sns-img">
+                                            <img src="images/sns/sns-slide/sns003.png" alt="sns 슬라이드 3번 이미지">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sns04 sns-img">
+                                            <img src="images/sns/sns-slide/sns004.png" alt="sns 슬라이드 4번 이미지">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="sns05 sns-img">
+                                            <img src="images/sns/sns-slide/sns005.png" alt="sns 슬라이드 5번 이미지">
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="https://www.instagram.com/vacheronconstantin/" target="_blank" class="instar-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-sns-contents">
+                        <div class="right-img-wrap">
+                            <img src="images/sns/background/bg002.png" alt="바쉐론 콘스탄틴 sns 배경화면">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="inner">
+                <div class="top-footer-content">
+                    <h2 class="footer-logo">
+                        <a href="index.html"></a>
+                    </h2>
+                    <button class="go-site-btn">
+                        <a href="https://www.vacheron-constantin.com/kr/ko/secure/subscribe-to-newsletter.html" target="_blank">바쉐론 콘스탄틴의 뉴스레터 구독하기</a>
+                    </button>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a>보도자료</a></li>
+                            <li><a>접근성 안내</a></li>
+                            <li><a>각인</a></li>
+                            <li><a>FAQ</a></li>
+                            <li><a>법적 고지 및 이용 약관</a></li>
+                            <li><a>기업 개인정보 취급방침 개요 | 바쉐론 콘스탄틴</a></li>
+                            <li><a>E - 부티크 판매 약관</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer-icon">
+                        <a href="https://www.facebook.com/vacheronconstantin/" class="icons facebook"></a>
+                        <a href="https://twitter.com/Vacheron1755" class="icons twitter"></a>
+                        <a href="https://www.youtube.com/user/VacheronConstantin" class="icons youtube"></a>
+                        <a href="https://www.linkedin.com/company/vacheron-constantin/" class="icons linked-in"></a>
+                        <a href="https://www.instagram.com/vacheronconstantin/" class="icons instar"></a>
+                        <a href="https://www.youku.com/profile/index?uid=UMTI1MzQwMzY=" class="icons youku"></a>
+                    </div>
+                    <div class="go-top">
+                        <a href="#" class="arrow"></a>
+                    </div>
+                </div>
+                <div class="bottom-footer-content">
+                    <div class="bottom-top-left">
+                        <p>㈜ 리치몬드 코리아 | 대표이사 : 이진원 | 서울 중구 퇴계로 100 스테이트타워 남산 (04631)</p>
+                        <p>개인정보보호책임자 : 서신강 | 호스팅 서비스 : Richemont International SA</p>
+                        <p>사업자 등록번호 : 102 - 81 - 41612 | 통신판매 신고번호 : 2017 - 서울중구 - 1264 (사업자 정보확인)</p>
+                    </div>
+                    <div class="bottom-top-right">
+                        <p>바쉐론 콘스탄틴 고객센터</p>
+                        <span>1877 - 4306</span>
+                        <p>conierge.korea@vacheron-constantin.com</p>
+                    </div>
+                    <div class="bottom-bottom-left">
+                        <p>KCP에서 제공하는 구매안전 서비스(에스크로)에 가입하여 안전한 거래를 보장하고 있습니다. (사업자 정보확인)</p>
+                    </div>
+                    <div class="bottom-bottom-right">
+                        <p>Vacheron Constantin &copy; 2023</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

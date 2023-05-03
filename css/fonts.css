@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'n-sans-r';
+    src: url('../fonts/NotoSansKR-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'n-sans-l';
+    src: url('../fonts/NotoSansKR-Light.otf') format('opentype');
+}
+@font-face {
+    font-family: 'n-sans-m';
+    src: url('../fonts/NotoSansKR-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'n-sans-b';
+    src: url('../fonts/NotoSansKR-Bold.otf') format('opentype');
+}
