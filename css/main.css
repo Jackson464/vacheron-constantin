@@ -36,12 +36,69 @@ li {
     background-color: #000;
     margin-left: 10%;
 }
+/* mb-bt */
+.mb-bt{
+    position: fixed;
+    left: 20px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+    z-index: 999;
+    transition: all .5s;
+}
+.mb-bt::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transition: all .3s;
+}
+.mb-bt .line{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 80%;
+    height: 2px;
+    background-color: #ffffff;
+    transition: all .3s;
+}
+.mb-bt.mb-bt-open{
+    display: none;
+}
+
+
+/* mobile menu mask */
+.mb-menu-mask{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    /* opacity: .7; */
+    /* background-color: #000; */
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 998;
+}
+.mb-menu-mask.mb-menu-mask-active{
+    display: block;
+}
+
 
 /* header */
 .header {
     position: fixed;
     z-index: 999;
     transition: all 0.5s;
+}
+.header.open{
+    width: 970px;
 }
 .header .inner {
     width: 100%;
@@ -111,9 +168,6 @@ li {
     background: url("../images/icons/header-icon/arrow-tri-001.png") no-repeat;
     background-position: 80% center;
     transition: background-position 0.7s;
-}
-.gnb .depth1 .mainmenu li:hover {
-    background-position: 90% center;
 }
 .gnb .depth1 .mainmenu li:last-child {
     background: none;
@@ -203,7 +257,23 @@ li {
     background-position: 90% center;
     letter-spacing: -1px;
 }
-.go-site-btn:hover a {
+.go-site-btn a:hover{
+    background: url("../images/icons/header-icon/arrow-line-b-001.png")
+        no-repeat;
+    background-position: 90% center;
+    color: #333;
+}
+.depth2 .tab-panel4 .go-site-btn a {
+    display: block;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 20px;
+    background: url("../images/icons/header-icon/arrow-line-001.png") no-repeat;
+    background-position: 90% center;
+    letter-spacing: -1px;
+}
+.depth2 .tab-panel4 .go-site-btn a:hover{
     background: url("../images/icons/header-icon/arrow-line-b-001.png")
         no-repeat;
     background-position: 90% center;
@@ -337,14 +407,14 @@ li {
 .swiper-button-bottom{
     position: absolute;
     bottom: 40%;
-    right: 20%;
+    left: 78.5%;
     z-index: 999999;
     cursor: pointer;
 }
 .swiper-button-top{
     position: absolute;
     top: 37%;
-    right: 20%;
+    left: 78.5%;
     z-index: 999999;
     cursor: pointer;
 }
@@ -364,7 +434,7 @@ li {
     position: absolute;
     width: auto;
     height: auto;
-    right: 15.8%;
+    left: 59.3%;
     bottom: 13.5%;
 }
 .vs-inner .watch-img img{
@@ -400,7 +470,7 @@ li {
 .vs-inner .left-top-txt{
     display: block;
     position: absolute;
-    left: 10%;
+    left: 5%;
     top: 10%;
 }
 .vs-inner .left-top-txt p{
@@ -426,7 +496,7 @@ li {
     display: flex;
     gap: 50px;
     position: absolute;
-    left: 10%;
+    left: 5%;
     top: 50%;
 }
 .vs-inner .left-center-txt .txt p{
@@ -443,10 +513,6 @@ li {
 }
 .vs-inner .left-bottom-img img{
     transition: all .5s;
-}
-.vs-inner .left-bottom-img:hover img{
-    opacity: .7;
-    scale: 1.2;
 }
 .vs-inner .right-center-btns{
     position: absolute;
@@ -493,26 +559,20 @@ li {
 /*  color back ground */
 .slide1 .bgc{
     position: absolute;
-    width: 33%;
+    width: 100%;
     height: 100%;
-    right: 15%;
-    top: 0;
     background-color: #c4a07d;
 }
 .slide2 .bgc{
     position: absolute;
-    width: 33%;
+    width: 100%;
     height: 100%;
-    right: 15%;
-    top: 0;
     background-color: #c0c0c0;
 }
 .slide3 .bgc{
     position: absolute;
-    width: 33%;
+    width: 100%;
     height: 100%;
-    right: 15%;
-    top: 0;
     background-color: #f1c5bf;
 }
 
@@ -533,13 +593,13 @@ li {
 .left-content{
     width: 45%;
     height: 100%;
-    background-color: #fff;
+    background-color: #000;
     overflow: hidden;
 }
 .left-content video{
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 /* right-content */
 .right-content{
@@ -818,14 +878,14 @@ li {
 }
 
 .half-left.width{
-    width: 85%;
+    width: 90%;
 }
 .half-left.width .left-txt{
     left: 20%;
 }
 
 .half-right.width{
-    width: 90%;
+    width: 95%;
 }
 .half-right.width .right-txt{
     left: 80%;
