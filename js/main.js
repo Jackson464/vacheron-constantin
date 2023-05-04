@@ -488,7 +488,24 @@ $(document).ready(function(){
             delay: 2500, // 시간 설정
             disableOnInteraction: false, // false-스와이프 후 자동 재생
         },
-      });
+     });
+    var swiper = new Swiper(".mb-swiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+        on: {
+            slideChangeTransitionStart : function(){
+                $('.animate__animated').hide(0)
+            },
+            slideChangeTransitionEnd : function(){
+                $('.animate__animated').show(0)
+            }
+        }
+    });
 
 
     $('.mb-bt').click(function (e) {
