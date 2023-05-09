@@ -1104,6 +1104,149 @@ li {
     background-size: 140%;
 }
 
+/* mb-half */
+.mb-half{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: none;
+}
+.mb-half-left{
+    width: 100%;
+    height: 50%;
+    background-color: #21324f;
+    display: flex;
+    justify-content: space-between;
+}
+.mb-half-right{
+    width: 100%;
+    height: 50%;
+    background-color: #cea77d;
+    display: flex;
+    justify-content: space-between;
+}
+.mb-half-img{
+    width: 40%;
+}
+.mb-half-txt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* mb-left */
+.mb-left-img{
+    background: url('../images/half/watch/left/l-004.png') no-repeat;
+    background-position: 50% center;
+    background-size: cover;
+}
+.mb-left-txt .btn{
+    font-family: "n-sans-r";
+    width: 140px;
+    height: 40px;
+    background-color: #21324f;
+    border: 1px solid #e9e9e9;
+    transition: all 0.5s;
+}
+.mb-left-txt .btn a {
+    display: block;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 10px;
+    background: url("../images/icons/header-icon/arrow-line-001.png") no-repeat;
+    background-position: 90% center;
+    letter-spacing: -1px;
+    color: #e9e9e9;
+    transition: all 1s;
+}
+.mb-left-txt .mb-left-txt-inner{
+    width: 70%;
+}
+.mb-left-txt-inner .left-title{
+    margin-bottom: 2%;
+}
+.mb-left-txt-inner .left-title h2{
+    color: #e9e9e9;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: #e9e9e9;
+}
+.mb-left-txt-inner .left-center{
+    margin-bottom: 2%;
+}
+.mb-left-txt-inner .left-center h3{
+    color: #e9e9e9;
+    font-weight: 500;
+    font-size: 18px;
+}
+.mb-left-txt-inner .left-bottom{
+    margin-bottom: 10%;
+}
+.mb-left-txt-inner .left-bottom p{
+    color: #e9e9e9;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'n-sans-l';
+}
+
+
+/* mb-right */
+.mb-right-img{
+    background: url('../images/half/watch/right/r-004.png') no-repeat center / cover;
+}
+.mb-right-txt .btn{
+    font-family: "n-sans-r";
+    width: 140px;
+    height: 40px;
+    background-color: #cea77d;
+    border: 1px solid #111;
+    transition: all 0.5s;
+}
+.mb-right-txt .btn a {
+    display: block;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 10px;
+    background: url("../images/icons/header-icon/arrow-line-b-001.png") no-repeat;
+    background-position: 90% center;
+    letter-spacing: -1px;
+    color: #111;
+    transition: all 1s;
+}
+.mb-right-txt-inner{
+    width: 70%;
+}
+.mb-right-txt-inner .right-title{
+    margin-bottom: 2%;
+}
+.mb-right-txt-inner .right-title h2{
+    color: #111;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.mb-right-txt-inner .right-center{
+    margin-bottom: 2%;
+}
+.mb-right-txt-inner .right-center h3{
+    color: #111;
+    font-weight: 500;
+    font-size: 18px;
+}
+.mb-right-txt-inner .right-bottom{
+    margin-bottom: 10%;
+}
+.mb-right-txt-inner .right-bottom p{
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'n-sans-l';
+}
 
 /* 4th-section (best-seller) */
 .best-seller {

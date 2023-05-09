@@ -338,9 +338,9 @@ $(document).ready(function(){
           nextEl: ".swiper-button-bottom",
           prevEl: ".swiper-button-top",
         },
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
+        autoplay :{
+            delay: 15000, // 시간 설정
+            disableOnInteraction: false, // false-스와이프 후 자동 재생
         },
         touchRatio: 0,
         loop: true,
@@ -493,7 +493,7 @@ $(document).ready(function(){
         spaceBetween: 30,
         effect: "fade",
         autoplay: {
-            delay: 5000,
+            delay: 8500,
             disableOnInteraction: false,
         },
         loop: true,
