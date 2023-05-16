@@ -338,10 +338,10 @@ $(document).ready(function(){
           nextEl: ".swiper-button-bottom",
           prevEl: ".swiper-button-top",
         },
-        autoplay :{
-            delay: 15000, // 시간 설정
-            disableOnInteraction: false, // false-스와이프 후 자동 재생
-        },
+        // autoplay :{
+        //     delay: 8000, // 시간 설정
+        //     disableOnInteraction: false, // false-스와이프 후 자동 재생
+        // },
         touchRatio: 0,
         loop: true,
         on: {
