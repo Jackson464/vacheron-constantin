@@ -1921,8 +1921,10 @@ li {
 }
 .left-sns-contents .go-site-btn{
     width: 220px;
-    left: 26%;
-    bottom: 40%;
+    position: relative;
+    left: 0%;
+    bottom: -20%;
+    transform: translateX(0%);
 }
 .left-sns-contents .go-site-btn a{
     padding-left: 10px;
